@@ -1,7 +1,7 @@
 import React from 'react';
 import filtros from './filtros.json';
 import styles from './Filtros.module.scss';
-import classNames from 'classnames'
+import classNames from 'classnames';
 
 type IOpcao = typeof filtros[0];
 
@@ -35,5 +35,5 @@ export default function  Filtros({filtro,setFiltro}: Props){
         </button>
       ))}
     </div>
-  )
+  );
 }
